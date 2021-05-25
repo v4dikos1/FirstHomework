@@ -8,16 +8,17 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Регистрация"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="180dp"
         android:textSize="28sp"
         android:textAlignment="center"
         android:fontFamily="casual"
-        android:background="#F0F0F0"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -29,8 +30,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:textSize="20sp"
+
         android:textAlignment="textStart"
         android:inputType="textEmailAddress"
         android:hint="Введите вашу почту"/>
@@ -46,5 +48,15 @@
         android:inputType="textPassword"
         android:hint="Введите пароль"
         />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Зарегистрироваться"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
