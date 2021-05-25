@@ -71,4 +71,11 @@
         android:layout_marginStart="10dp"
         android:layout_gravity="center"/>
 
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:text="Включить ночную тему"/>
+
 </LinearLayout>
