@@ -10,17 +10,41 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Регистрация"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="15dp"
-        android:textSize="20sp"
+        android:textSize="28sp"
         android:textAlignment="center"
         android:fontFamily="casual"
+        android:background="#F0F0F0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Какой-то текст"/>
+        tools:text="Регистрация"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:inputType="textEmailAddress"
+        android:hint="Введите вашу почту"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:inputType="textPassword"
+        android:hint="Введите пароль"
+        />
 
 </LinearLayout>
